@@ -1,7 +1,7 @@
 #Admin
 #=> admin
-#=> education (password)
-#=> admin1@gmail.com (email)
+#=> karachi12 (password)
+#=> mehfooz.connect@gmail.com (email)
 #New Windows codes
 
 from django.contrib import admin
