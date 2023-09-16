@@ -90,7 +90,7 @@ def charge(request):
            ordercourse.save()
 
            # Increase user Credit
-           data_userprofile.credits = int(data_userprofile.credits) + (int(credit_quantity)*60)
+           data_userprofile.credits = int(data_userprofile.credits) + (int(credit_quantity)*60*60)
            data_userprofile.save()
    return redirect(reverse('success', args=[amount]))
 
