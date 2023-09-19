@@ -1,2 +1,2 @@
-web: gunicorn smartlearning.wsgi:application --log-file - --log-level debug
+web: gunicorn smartlearning.wsgi --log-file - 
 
