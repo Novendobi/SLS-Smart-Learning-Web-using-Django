@@ -1,1 +1,1 @@
-python manage.py migrate && gunicorn smartlearning.wsgi
+web: python manage.py migrate && gunicorn smartlearning.wsgi
