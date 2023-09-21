@@ -18,10 +18,6 @@ static = "staticfiles"
 [phases.setup]
 nixPkgs = ["...", "sqlite"]
 
-# Specify the install phase to install python dependencies
-[phases.install]
-cmds = ["python3 -m pip3 install -r requirements.txt"]
-
 # Specify the build phase to collect static files
 [phases.build]
 cmds = ["python manage.py collectstatic --noinput"]
