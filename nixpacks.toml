@@ -20,7 +20,7 @@ nixPkgs = ["...", "sqlite"]
 
 # Specify the install phase to install python dependencies
 [phases.install]
-cmds = ["pip install -r requirements.txt"]
+cmds = ["python pip install -r requirements.txt"]
 
 # Specify the build phase to collect static files
 [phases.build]
