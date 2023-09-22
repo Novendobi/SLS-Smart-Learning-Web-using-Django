@@ -38,6 +38,11 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = [ ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-c2c05.up.railway.app/',
+    'https://herosjourneyoneprivate-production.up.railway.app/'
+]
+
 SITE_ID = 1
 
 # Application definition
